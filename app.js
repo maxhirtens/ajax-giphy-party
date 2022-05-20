@@ -33,6 +33,6 @@ $submit.on('click', async function(e){
 })
 
 // clear all LI gifs
-$clear.on('click', function(e){
+$clear.on('click', function(){
   $ul.empty();
 })
