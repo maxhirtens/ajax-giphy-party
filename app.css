@@ -1,12 +1,21 @@
 body  {
   padding-left: 50px;
-  background-color: gray;
+  background-color: rgba(77, 205, 100, 0.526);
 }
 
-span  {
-  display: block;
+button, input {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px;
 }
 
 img {
   width: 300px;
+}
+
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
+  color: rgb(220, 111, 39);
+  text-shadow: 1px 1px 2px rgb(4, 3, 3), 0 0 1em rgb(121, 121, 121), 0 0 0.2em rgb(33, 64, 216);
 }
