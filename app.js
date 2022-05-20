@@ -22,7 +22,7 @@ function makeGif(res){
 $submit.on('click', async function(e){
   e.preventDefault();
   let gifType = $input.val();
-  const response = await axios.get("http://api.giphy.com/v1/gifs/search", {
+  const response = await axios.get("https://api.giphy.com/v1/gifs/search", {
     params: {
       q: gifType,
       api_key: "MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym"
