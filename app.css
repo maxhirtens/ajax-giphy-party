@@ -1,0 +1,12 @@
+body  {
+  padding-left: 50px;
+  background-color: gray;
+}
+
+span  {
+  display: block;
+}
+
+img {
+  width: 300px;
+}

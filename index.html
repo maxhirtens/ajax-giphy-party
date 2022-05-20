@@ -4,9 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Giphy Party!</title>
+  <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
+<h1>GIPHY PARTY</h1>
+<span>
+  <form action="submit">
+    <input type="text" id="search-box" placeholder="Search for GIFs">
+    <button id="submit-button">Submit</button>
+  </form>
+  <button id="clear-button">Clear GIFs</button>
+</span>
+<ul id="gif-list">
+
+</ul>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
