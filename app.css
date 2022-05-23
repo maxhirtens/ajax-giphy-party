@@ -19,3 +19,7 @@ h1{
   color: rgb(220, 111, 39);
   text-shadow: 1px 1px 2px rgb(4, 3, 3), 0 0 1em rgb(121, 121, 121), 0 0 0.2em rgb(33, 64, 216);
 }
+
+li {
+  list-style: none;
+}
